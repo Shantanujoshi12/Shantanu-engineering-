@@ -1,0 +1,98 @@
+# AI-Assisted Aircraft Emergency Cabin Separation Prototype
+
+## Overview
+
+This project presents a tabletop research prototype for an
+AI-assisted emergency aircraft cabin-separation concept.
+
+The prototype combines:
+
+- Aircraft-condition sensors
+- AI-based emergency-state classification
+- ESP32 control
+- Electromagnetic actuation
+- Mechanical latch
+- Detachable lightweight model cabin
+
+## Important Safety Notice
+
+This is a research and educational prototype for a tabletop model.
+
+It is NOT designed, tested, or certified for use on real aircraft,
+passenger aircraft, or human transportation.
+
+The electromagnetic actuator operates a small mechanical latch.
+It does not provide the force required to separate an aircraft
+structure.
+
+## System Architecture
+
+Sensors
+    ↓
+ESP32
+    ↓
+Data processing
+    ↓
+AI safety classifier
+    ↓
+Safety/interlock system
+    ↓
+Prototype actuator
+    ↓
+Mechanical latch
+    ↓
+Model cabin
+
+## Hardware
+
+- ESP32
+- Solenoid actuator
+- MOSFET driver
+- Flyback diode
+- Push buttons
+- Latch-position sensor
+- Temperature sensor
+- Vibration/IMU sensor
+- Lightweight model fuselage
+
+## Software
+
+Python is used for:
+
+- Sensor simulation
+- AI classification
+- Emergency-state analysis
+
+Arduino/ESP32 firmware is used for:
+
+- Sensor acquisition
+- Safety interlocks
+- Prototype actuator control
+
+## Operating States
+
+NORMAL
+    ↓
+WARNING
+    ↓
+CRITICAL
+    ↓
+HUMAN REVIEW
+    ↓
+PROTOTYPE RELEASE
+
+## Future Development
+
+- Digital twin of aircraft
+- More sensor inputs
+- Fault detection
+- Hardware-in-the-loop simulation
+- Redundant safety monitoring
+- Structural simulation
+- Improved AI anomaly detection
+
+## Disclaimer
+
+This repository demonstrates a conceptual research prototype.
+It does not provide instructions for modifying or operating
+real aircraft.
