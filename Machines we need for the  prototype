@@ -1,1 +1,22 @@
-
+ai-aircraft-cabin-safety/
+│
+├── README.md
+├── requirements.txt
+│
+├── firmware/
+│   └── esp32_controller/
+│       └── esp32_controller.ino
+│
+├── ai/
+│   ├── aircraft_monitor.py
+│   ├── anomaly_detector.py
+│   └── sensor_simulator.py
+│
+├── simulation/
+│   └── emergency_simulation.py
+│
+├── hardware/
+│   └── components.md
+│
+└── docs/
+    └── system_architecture.md
