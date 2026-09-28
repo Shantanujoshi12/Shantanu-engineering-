@@ -1,0 +1,32 @@
+ NORMAL FLIGHT
+      ↓
+ Sensors continuously monitor aircraft
+      ↓
+ AI analyzes sensor data
+      ↓
+ ┌───────────────┐
+ │ NORMAL        │ → Continue flight
+ └───────────────┘
+      │
+      ↓ emergency indicators
+ ┌───────────────┐
+ │ CRITICAL      │
+ └───────────────┘
+      ↓
+ Safety interlock / pilot confirmation
+      ↓
+ Electromagnetic actuator
+      ↓
+ Mechanical latch RELEASES
+      ↓
+ ┌──────────────────────┐
+ │  DETACHABLE CABIN    │
+ └──────────────────────┘
+      ↓
+ Stabilization
+      ↓
+ Parachute concept
+      ↓
+ Controlled descent
+      ↓
+ Landing / flotation
